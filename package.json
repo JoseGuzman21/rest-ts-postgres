@@ -1,0 +1,32 @@
+{
+  "name": "rest-ts-postgres",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon dist/index.js",
+    "js": "tsc && nodemon ./dist/index.js",
+    "dev": "nodemon src/index.ts --exec ts-node",
+    "build": "tsc & node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoseGuzman21/rest-ts-postgres.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JoseGuzman21/rest-ts-postgres/issues"
+  },
+  "homepage": "https://github.com/JoseGuzman21/rest-ts-postgres#readme",
+  "dependencies": {
+    "express": "^4.17.3",
+    "morgan": "^1.10.0",
+    "pg": "^8.7.3"
+  },
+  "devDependencies": {
+    "@types/morgan": "^1.9.3",
+    "typescript": "^4.6.2"
+  }
+}
